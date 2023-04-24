@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.drawing-board {
+    position: relative;
+}
+
+
+
+.centerDot {
+    pointer-events: none;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.dot {
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.percentage {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.best {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+canvas {
+    background-color: black;
+}
+
+p {
+
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Montserrat', sans-serif;
+}

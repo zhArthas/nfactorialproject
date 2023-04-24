@@ -1,0 +1,8 @@
+draw a circle where dot in center
+if you dont draw a full circle u will have error
+"draw a full circle"
+to draw a full circle u have to reach start point
+if you too close to dot there will be error 
+"too close to dot"
+and if you will draw too slow there will be error
+"too slow"   
